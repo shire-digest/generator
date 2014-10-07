@@ -34,3 +34,6 @@
     (let [dest (str (:dest options) "/" output-document)
           document (render-digest posts)]
       (write-to dest document))))
+
+(defn new-generator [options]
+  (SimpleGenerator. options))
