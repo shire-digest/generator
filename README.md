@@ -15,9 +15,9 @@ nil
 ### Start generating
 
 ```clojure
-=> (require '[shire-digest.generators.core :refer [create]])
+=> (require '[shire-digest.generators.core :refer [generate]])
 nil
-=> (create simple-generator posts)
+=> (generate simple-generator posts)
 ```
 
 ## License

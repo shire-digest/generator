@@ -1,6 +1,6 @@
 (ns shire-digest.generator.simple
   "Simple HTML generator."
-  (:require [shire-digest.generator.core :refer [Generator create]]
+  (:require [shire-digest.generator.core :refer [Generator generate]]
             [shire-digest.generator.utils :refer [write-to]]
             [shire-digest.meta.utils :refer [prepare-directory today]]
             [clostache.parser :as tmpl]))
@@ -31,7 +31,7 @@
 
 (deftype SimpleGenerator [output-directory]
   Generator
-  (create [this posts]
+  (generate [this posts]
     (let [dest (str output-directory "/" output-file-name)
           document (render-digest posts)]
       (write-to dest document))))

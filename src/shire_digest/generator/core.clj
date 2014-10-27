@@ -6,4 +6,4 @@
   Each generator should take generate-options and list of post metas and
   create a document."
   
-  (create [this posts] "Create a document."))
+  (generate [this posts] "Create a document."))
