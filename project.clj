@@ -1,4 +1,4 @@
-(defproject shire-digest.generator "0.0.1-SNAPSHOT"
+(defproject shire-digest.generator "0.0.1"
   :description ";)"
   :license {:name "SMPPL"
             :url "https://github.com/xhacker/SMPPL/blob/master/SMPPL-Freeware.md"}
