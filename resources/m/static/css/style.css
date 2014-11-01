@@ -1,0 +1,115 @@
+/*
+ * M.
+ */
+
+
+/*
+ * Contents
+ *
+ * Wrapper
+ * Navigation
+ * Post List
+ * Post Card
+ */
+
+
+/*
+ * Wrapper
+ */
+.m-wrapper {
+  max-width: 98%;
+  padding: 15px 0;
+}
+
+
+/*
+ * Navigation
+ */
+.m-nav {
+}
+
+.m-nav ul {
+  display: block;
+  margin: 0;
+  padding: 0 1rem;
+  margin-bottom: 1.5rem;
+
+  border-top: 1px solid #666;
+}
+
+.m-nav ul li {
+  margin: 0 1rem;
+
+  list-style: none;
+  display: inline-block;
+  font-size: 2.5rem;
+}
+
+.m-nav ul li.active {
+  border-top: 1px solid #222;
+}
+
+.m-nav ul li a {
+  color: #000;
+  font-weight: bold;
+}
+
+
+/*
+ * Post List
+ */
+.m-posts-list {
+  margin: 5rem 0 0;
+  padding: 0;
+}
+
+
+/*
+ * Post Card
+ */
+.m-post-card {
+  display: block;
+  padding: 0 1.5rem;
+  margin: 0 0 8rem;
+
+  color: #000;
+  border-top: 1px solid #999;
+  text-decoration: none;
+}
+
+.m-post-card:hover,
+.m-post-card:visited {
+  text-decoration: none;
+}
+
+.m-post-card:first-child {
+  border-top: none;
+}
+
+.m-meta {
+  margin-top: 8rem;
+}
+
+.m-author {
+  font-size: .85rem;
+  font-weight: 200;
+  color: rgba(0, 0, 0, 0.3);
+  line-height: normal;
+}
+
+h1.m-title {
+  margin-top: .25rem;
+  margin-bottom: 1rem;
+
+  font-size: 4rem;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.8);
+  line-height: normal;
+}
+
+.m-content {
+  padding: 0 1rem 0 0;
+
+  white-space: pre-wrap;
+  font-size: 1rem;
+}

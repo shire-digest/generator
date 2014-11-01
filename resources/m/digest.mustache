@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shire Digest</title>
+    <link rel="stylesheet" href="http://cdn.staticfile.org/typo.css/1.1/typo.min.css">
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+    <div class="m-wrapper">
+        <header class="m-nav">
+            <ul>
+                <li class="active"><a href="/">Today</a></li>
+            </ul>
+        </header>
+        <section class="m-posts-list typo">
+            {{#articles}}
+                {{&.}}
+            {{/articles}}
+        </section>
+    </div>
+</body>
+</html>
